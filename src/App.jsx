@@ -1,9 +1,13 @@
 import "./App.css";
 import CoffeeList from "./components/CoffeeList/CoffeeList";
+import Vector from "./components/Vector";
 
 function App() {
 	return (
 		<>
+			<div className="vector">
+				<Vector />
+			</div>
 			<div className="background-image"></div>
 			<div className="background-dark">
 				<div className="content-part">

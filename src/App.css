@@ -5,7 +5,7 @@
 }
 .background-dark {
 	width: 100%;
-	padding-bottom: 90px;
+	padding-bottom: 45px;
 	background-color: #121315;
 	display: flex;
 	justify-content: center;
@@ -13,15 +13,21 @@
 .content-part {
 	width: 820px;
 	height: fit-content;
-	margin-top: -90px;
-	padding: 45px;
+	margin-top: -135px;
+	padding: 60px 45px 35px 45px;
 	position: relative;
-	z-index: 2;
+	/* z-index: 2; */
 	background-color: #1c1d1f;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.vector {
+	position: absolute;
+	top: 95px;
+	left: calc(100% / 2);
+	z-index: 2;
 }
 .content-part > * + * {
 	margin-top: 15px;
@@ -30,14 +36,15 @@
 	font-size: 24px;
 	font-family: "Inter", sans-serif;
 	color: #f5eee5;
+	z-index: 4;
 }
 .info {
 	width: 365px;
 	font-size: 12px;
 	font-family: "Inter", sans-serif;
-	color: #f5eee5;
-	opacity: 0.3;
+	color: #60656b;
 	text-align: center;
+	z-index: 4;
 }
 .buttons {
 	width: 200px;
