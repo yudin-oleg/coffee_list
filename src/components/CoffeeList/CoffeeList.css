@@ -1,7 +1,9 @@
 .coffee-list {
 	/* width: 100%;
 	height: fit-content; */
+	height: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	padding: 15px;
 	gap: 24px;
 }

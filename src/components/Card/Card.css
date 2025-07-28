@@ -1,0 +1,8 @@
+.coffee {
+	width: 200px;
+	height: 100%;
+}
+#image {
+	width: 100%;
+	height: 120px;
+}

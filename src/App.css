@@ -1,18 +1,18 @@
 .background-image {
 	width: 100%;
-	height: 25%;
+	height: 180px;
 	background-image: url("./assets/bg-cafe-lg.jpg");
 }
 .background-dark {
 	width: 100%;
-	height: 75%;
+	padding-bottom: 90px;
 	background-color: #121315;
 	display: flex;
 	justify-content: center;
 }
 .content-part {
-	width: 80%;
-	height: 100%;
+	width: 820px;
+	height: fit-content;
 	margin-top: -90px;
 	padding: 45px;
 	position: relative;
@@ -22,7 +22,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* justify-content: space-evenly; */
 }
 .content-part > * + * {
 	margin-top: 15px;
@@ -33,7 +32,7 @@
 	color: #f5eee5;
 }
 .info {
-	width: 50%;
+	width: 365px;
 	font-size: 12px;
 	font-family: "Inter", sans-serif;
 	color: #f5eee5;
@@ -41,17 +40,18 @@
 	text-align: center;
 }
 .buttons {
+	width: 200px;
+	height: 25px;
 	display: flex;
 	justify-content: space-between;
-	width: 25%;
-	height: 25px;
 }
 #all-products,
 #available-now {
 	border: none;
 	outline: none;
 	height: 100%;
-	width: 85px;
+	width: 90px;
+	padding: 5px;
 	background-color: transparent;
 	text-decoration: none;
 	text-align: center;
