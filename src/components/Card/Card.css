@@ -1,14 +1,14 @@
 .coffee-card {
 	width: 200px;
 	height: 100%;
-	font-size: 12px;
+	font-size: 14px;
 	position: relative;
 }
 #popular {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background-color: #f5c768;
+	background-color: #f6c768;
 	padding: 3px 10px;
 	border-radius: 15px;
 	font-weight: bolder;
@@ -28,11 +28,11 @@
 	font-size: 12px;
 }
 #name {
-	color: #f5eee5;
+	color: #fef7ee;
 }
 #price {
 	padding: 2px 5px;
-	background-color: #bde2cb;
+	background-color: #bee3cc;
 	border-radius: 5px;
 }
 #star-rating-votes {
@@ -48,11 +48,13 @@
 #rating {
 	margin-left: 3px;
 	margin-right: 3px;
+	font-size: 10px;
 }
 #votes {
-	color: #60656b;
-	/* opacity: 0.3; */
+	color: #6f757c;
+	font-size: 10px;
 }
 #available {
-	color: #bc5f4f;
+	color: #ed735d;
+	font-size: 10px;
 }

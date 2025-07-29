@@ -6,7 +6,7 @@
 .background-dark {
 	width: 100%;
 	padding-bottom: 90px;
-	background-color: #121315;
+	background-color: #111315;
 	display: flex;
 	justify-content: center;
 }
@@ -16,7 +16,7 @@
 	margin-top: -90px;
 	padding: 60px 45px 35px 45px;
 	position: relative;
-	background-color: #1c1d1f;
+	background-color: #1b1d1f;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
@@ -35,21 +35,19 @@
 	margin-top: 15px;
 }
 .content-part h1 {
-	font-size: 24px;
-	font-family: "Inter", sans-serif;
-	color: #f5eee5;
+	font-size: 32px;
+	color: #fef7ee;
 	z-index: 4;
 }
 .info {
-	width: 365px;
-	font-size: 12px;
-	font-family: "Inter", sans-serif;
-	color: #60656b;
+	width: 380px;
+	font-size: 16px;
+	color: #6f757c;
 	text-align: center;
 	z-index: 4;
 }
 .buttons {
-	width: 200px;
+	width: 220px;
 	height: 25px;
 	display: flex;
 	justify-content: space-between;
@@ -60,13 +58,13 @@
 	border: none;
 	outline: none;
 	height: 100%;
-	width: 90px;
+	width: 100px;
 	padding: 5px;
 	background-color: transparent;
 	text-decoration: none;
 	text-align: center;
-	font-size: 12px;
-	color: #f5eee5;
+	font-size: 14px;
+	color: #fef7ee;
 	border-radius: 5px;
 	cursor: pointer;
 }
