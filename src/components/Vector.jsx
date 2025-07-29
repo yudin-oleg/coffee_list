@@ -20,9 +20,9 @@ function Vector() {
 			</svg>
 			<svg
 				className="svg-mobile"
-				width="175"
+				width="170"
 				height="153"
-				viewBox="0 0 175 153"
+				viewBox="0 0 170 153"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
 			>

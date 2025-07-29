@@ -1,6 +1,6 @@
 .background-image {
 	width: 100%;
-	height: 180px;
+	height: 300px;
 	background-image: url("./assets/bg-cafe-lg.jpg");
 }
 .background-dark {
@@ -11,10 +11,10 @@
 	justify-content: center;
 }
 .content-part {
-	width: 820px;
+	width: 1095px;
 	height: fit-content;
-	margin-top: -90px;
-	padding: 60px 45px 35px 45px;
+	margin-top: -140px;
+	padding: 80px 124px;
 	position: relative;
 	background-color: #1b1d1f;
 	border-radius: 15px;
@@ -24,42 +24,48 @@
 }
 .vector {
 	position: absolute;
-	top: 95px;
+	top: 200px;
 	left: calc(100% / 2);
 	z-index: 2;
 }
 .svg-mobile {
 	display: none;
 }
-.content-part > * + * {
+/* .content-part > * + * {
 	margin-top: 15px;
-}
+} */
 .content-part h1 {
 	font-size: 32px;
 	color: #fef7ee;
 	z-index: 4;
+	margin-bottom: 8px;
 }
 .info {
-	width: 380px;
-	font-size: 16px;
+	width: 440px;
+	font-size: 14px;
 	color: #6f757c;
 	text-align: center;
+	margin-bottom: 20px;
 	z-index: 4;
 }
 .buttons {
-	width: 220px;
-	height: 25px;
-	display: flex;
-	justify-content: space-between;
+	/* width: 220px; */
+	height: 40px;
+	/* display: flex;
+	justify-content: space-between; */
 	z-index: 4;
+	margin-bottom: 40px;
+}
+#all-products {
+	margin-right: 12px;
 }
 #all-products,
 #available-now {
 	border: none;
 	outline: none;
 	height: 100%;
-	width: 100px;
-	padding: 5px;
+	/* width: 100px; */
+	padding: 8px 12px;
 	background-color: transparent;
 	text-decoration: none;
 	text-align: center;
@@ -75,25 +81,28 @@
 	background-color: #4d5562;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
 	.background-image {
 		background-image: url("./assets/bg-cafe.jpg");
 	}
 	.content-part {
-		width: 760px;
-		padding: 60px 15px 35px 15px;
+		/* width: 1007px; */
+		padding: 80px 80px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
 	.background-image {
 		background-image: url("./assets/bg-cafe-sm.jpg");
 	}
-	.background-dark {
+	/* .background-dark {
 		padding-bottom: 45px;
 	}
 	.vector {
 		top: 50px;
+	} */
+	.vector {
+		top: 170px;
 	}
 	.svg-mobile {
 		display: block;
@@ -102,11 +111,10 @@
 		display: none;
 	}
 	.content-part {
-		width: 350px;
-		padding: 60px 0px 35px 0px;
-		margin-top: -135px;
+		width: 341px;
+		padding: 60px 40px;
 	}
 	.info {
-		width: 250px;
+		width: 280px;
 	}
 }
