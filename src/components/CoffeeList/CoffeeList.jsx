@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import "./CoffeeList.css";
 
-function CoffeeList() {
+function CoffeeList({ option }) {
 	const [data, setdata] = useState([]);
 	useEffect(() => {
 		fetch(
@@ -14,9 +14,17 @@ function CoffeeList() {
 			});
 	}, []);
 
+	function getProperCoffeeList(option, data) {
+		if (option === "showAll") {
+			return data;
+		} else {
+			return data.filter((coffee) => coffee.available === true);
+		}
+	}
+
 	return (
 		<div className="coffee-list">
-			{data.map((item) => {
+			{getProperCoffeeList(option, data).map((item) => {
 				return <Card key={item.id} coffee={item} />;
 			})}
 		</div>
